@@ -1,11 +1,10 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Library LVVersion="24008000">
+<Library LVVersion="20008000">
 	<Property Name="NI.Lib.ContainingLib" Type="Str">RaspberryPiPico.lvlib</Property>
 	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../RaspberryPiPico.lvlib</Property>
 	<Property Name="NI.Lib.Description" Type="Str">Wrapper VIs for the Local Instance Events single-element queue for DQMH cloneable modules.</Property>
 	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
-	<Property Name="NI.Lib.Icon" Type="Bin">*!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*!!!!*Q(C=\&gt;5^&lt;B.2&amp;-8R![*)[RUA&lt;_&amp;OQ6PQ&amp;CY3F#H=JH4""OY7,%5MQ+*$6+?HC)9FO+./`P.]*[!)Y1911JH*?][=^`8,G`&amp;%'M?6^%LXFY[XPTRIV`QJ,27V2BG8X4Z@H;POPG20WJ?JJ*_XH\OIMZZ`'&lt;"57KLT_!P_#Y??D_@D`TZO,HY*`PDXY)8G&amp;R(&amp;F+)E*41P?W^SEZP=Z#9X?:%8?:%8?:%8?:)H?:)H?:)H?:!(?:!(?:!(_4D*23ZSE5-SCZO&amp;T+2G!N-:CERF0-:D0-&lt;$J9T(?)T(?)S(,D)?YT%?YT%?BMFYD-&gt;YD-&gt;YG'J)0%ZS0-&lt;$^#I]B;@Q&amp;*\#QZ)K0!7A7+S9O*A%BIL'YJ@#5XA+$\_K]"3?QF.Y#A`.+DS&amp;J`!5HM,$E,%L.44T39[(;:2Y%E`C34S*B[G6?"*0YEE]C9@FF(A34Y*)&amp;EQGB["E5.)BO5A]C9=0*:\%EXA34_+B;&gt;SB($MT;_;4(%`A#4S"*`!%(K:1Y!E]A3@Q""[G6?!*0)%H]!1?FF,A#4S"*Y!%C\+]AMG#A5'H)!A]`)SH*=:&gt;KC'*=5L^]+I@3P8$JH[)V!_(_K;L&lt;[&lt;[*KEX8\WJ[MV3&lt;Y,[DV/DV2DV)OL"=U?&gt;K#@+E8+A\#E\SJ;SI;QJKXHI&lt;_ZY/JUU4://R[-/BY0W_\VWOZWWW[UWGYX7[\67K^8D;_!VZ_-,Y@N\[?PVJT@4\=?\[90PJNNP8TZ@PX`XF`Y``Q0P2LX5DWOQ2Q`-16E`!!!!!!</Property>
-	<Property Name="NI.Lib.SourceVersion" Type="Int">604012544</Property>
+	<Property Name="NI.Lib.Icon" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*!!!!*Q(C=\&gt;5^&lt;B.2&amp;-8R![*)[RUA&lt;_&amp;OQ6PQ&amp;CY3F#H=JH4""OY7,%5MQ+*$6+?HC)9FO+./`P.]*[!)Y1911JH*?][=^`8,G`&amp;%'M?6^%LXFY[XPTRIV`QJ,27V2BG8X4Z@H;POPG20WJ?JJ*_XH\OIMZZ`'&lt;"57KLT_!P_#Y??D_@D`TZO,HY*`PDXY)8G&amp;R(&amp;F+)E*41P?W^SEZP=Z#9X?:%8?:%8?:%8?:)H?:)H?:)H?:!(?:!(?:!(_4D*23ZSE5-SCZO&amp;T+2G!N-:CERF0-:D0-&lt;$J9T(?)T(?)S(,D)?YT%?YT%?BMFYD-&gt;YD-&gt;YG'J)0%ZS0-&lt;$^#I]B;@Q&amp;*\#QZ)K0!7A7+S9O*A%BIL'YJ@#5XA+$\_K]"3?QF.Y#A`.+DS&amp;J`!5HM,$E,%L.44T39[(;:2Y%E`C34S*B[G6?"*0YEE]C9@FF(A34Y*)&amp;EQGB["E5.)BO5A]C9=0*:\%EXA34_+B;&gt;SB($MT;_;4(%`A#4S"*`!%(K:1Y!E]A3@Q""[G6?!*0)%H]!1?FF,A#4S"*Y!%C\+]AMG#A5'H)!A]`)SH*=:&gt;KC'*=5L^]+I@3P8$JH[)V!_(_K;L&lt;[&lt;[*KEX8\WJ[MV3&lt;Y,[DV/DV2DV)OL"=U?&gt;K#@+E8+A\#E\SJ;SI;QJKXHI&lt;_ZY/JUU4://R[-/BY0W_\VWOZWWW[UWGYX7[\67K^8D;_!VZ_-,Y@N\[?PVJT@4\=?\[90PJNNP8TZ@PX`XF`Y``Q0P2LX5DWOQ2Q`-16E`!!!!!!</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
