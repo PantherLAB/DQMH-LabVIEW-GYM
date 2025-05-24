@@ -1,0 +1,11 @@
+08:48:17.636 a. m. 24/05/2025	 Event:Did Something	 Type: Broadcast	 Removed from: RaspberryPiPico.lvlib	 TypeCloneable
+08:48:19.052 a. m. 24/05/2025	 Event:Do Something	 Type: Request	 Removed from: RaspberryPiPico.lvlib	 TypeCloneable
+08:48:20.424 a. m. 24/05/2025	 Event:Do Something Else	 Type: Request	 Removed from: RaspberryPiPico.lvlib	 TypeCloneable
+08:48:21.826 a. m. 24/05/2025	 Event:Do Something Else and Wait for Reply	 Type: Request and Wait	 Removed from: RaspberryPiPico.lvlib	 TypeCloneable
+08:48:25.438 a. m. 24/05/2025	 New Module added, Name: RaspberryPiPico	 Type: Cloneable	 Description: 
+09:07:30.396 a. m. 24/05/2025	 New Event added to: RaspberryPiPico.lvlib	 Type: Cloneable	 Name:Initialize Instrument	 Type:Request and Wait for Reply	 Scope:Public Request	 Description: Initialize Raspberry PI Instrument
+09:18:45.395 a. m. 24/05/2025	 New Event added to: RaspberryPiPico.lvlib	 Type: Cloneable	 Name:Instrument Connected	 Type:Broadcast	 Scope:Public Request	 Description: 
+09:29:45.256 a. m. 24/05/2025	 Helper Loop added to: "RaspberryPiPico.lvlib:"	 named: "Continuous Acquisition HL"
+09:40:13.991 a. m. 24/05/2025	 New Event added to: RaspberryPiPico.lvlib	 Type: Cloneable	 Name:Start Continuous Acquisition	 Type:Request	 Scope:Local Instance	 Description: Start Continuous Acquisition
+09:54:50.529 a. m. 24/05/2025	 New Event added to: RaspberryPiPico.lvlib	 Type: Cloneable	 Name:Analog Inputs Updated	 Type:Broadcast	 Scope:Public Request	 Description: Analog Inputs Updated
+10:18:40.598 a. m. 24/05/2025	 New Event added to: RaspberryPiPico.lvlib	 Type: Cloneable	 Name:Digital Inputs Updated	 Type:Broadcast	 Scope:Public Request	 Description: Digital Inputs Updated
