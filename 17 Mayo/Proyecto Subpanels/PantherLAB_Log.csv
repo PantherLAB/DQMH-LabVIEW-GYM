@@ -1,0 +1,14 @@
+09:16:51.808 a. m. 17/05/2025	 Event:Did Something	 Type: Broadcast	 Removed from: My Singleton Module.lvlib	 TypeSingleton
+09:16:53.176 a. m. 17/05/2025	 Event:Do Something	 Type: Request	 Removed from: My Singleton Module.lvlib	 TypeSingleton
+09:16:54.375 a. m. 17/05/2025	 Event:Do Something Else	 Type: Request	 Removed from: My Singleton Module.lvlib	 TypeSingleton
+09:16:55.559 a. m. 17/05/2025	 Event:Do Something Else and Wait for Reply	 Type: Request and Wait	 Removed from: My Singleton Module.lvlib	 TypeSingleton
+09:16:56.713 a. m. 17/05/2025	 Event:Did Something	 Type: Broadcast	 Removed from: My Cloneable Module.lvlib	 TypeCloneable
+09:16:58.065 a. m. 17/05/2025	 Event:Do Something	 Type: Request	 Removed from: My Cloneable Module.lvlib	 TypeCloneable
+09:16:59.365 a. m. 17/05/2025	 Event:Do Something Else	 Type: Request	 Removed from: My Cloneable Module.lvlib	 TypeCloneable
+09:17:00.649 a. m. 17/05/2025	 Event:Do Something Else and Wait for Reply	 Type: Request and Wait	 Removed from: My Cloneable Module.lvlib	 TypeCloneable
+09:17:14.865 a. m. 17/05/2025	 Module:"My Singleton Module.lvlib"	 Renamed to-> "Singleton Subpanel.lvlib"
+09:17:30.514 a. m. 17/05/2025	 Module:"My Cloneable Module.lvlib"	 Renamed to-> "Cloneable Subpanel.lvlib"
+09:37:26.405 a. m. 17/05/2025	 New Event added to: Singleton Subpanel.lvlib	 Type: Singleton	 Name:Draw FP in SubPanel	 Type:Request	 Scope:Public Request	 Description: Draw FP in SubPanel
+10:09:32.008 a. m. 17/05/2025	 New Event added to: Singleton Subpanel.lvlib	 Type: Singleton	 Name:Remove from SubPanel	 Type:Request	 Scope:Public Request	 Description: Remove from SubPanel
+10:25:07.532 a. m. 17/05/2025	 Singleton Subpanel.lvlib	 Event: "Draw FP in SubPanel"	 Duplicated to: Cloneable Subpanel.lvlib	 with the name: "Draw FP in SubPanel"
+10:29:47.635 a. m. 17/05/2025	 Singleton Subpanel.lvlib	 Event: "Remove from SubPanel"	 Duplicated to: Cloneable Subpanel.lvlib	 with the name: "Remove from SubPanel"
