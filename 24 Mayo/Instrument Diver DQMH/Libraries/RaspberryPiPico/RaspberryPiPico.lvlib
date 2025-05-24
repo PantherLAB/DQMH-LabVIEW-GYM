@@ -81,6 +81,7 @@
 			<Item Name="Acquisition Polling Time--constant.vi" Type="VI" URL="../Acquisition Polling Time--constant.vi"/>
 			<Item Name="Module Name--constant.vi" Type="VI" URL="../Module Name--constant.vi"/>
 			<Item Name="Module Timeout--constant.vi" Type="VI" URL="../Module Timeout--constant.vi"/>
+			<Item Name="Reconnection Retries--constant.vi" Type="VI" URL="../Reconnection Retries--constant.vi"/>
 		</Item>
 		<Item Name="Errors" Type="Folder">
 			<Item Name="Master Reference Not Closed--error.vi" Type="VI" URL="../Master Reference Not Closed--error.vi"/>
@@ -134,4 +135,5 @@
 	</Item>
 	<Item Name="Read Analog Inputs.vi" Type="VI" URL="../Read Analog Inputs.vi"/>
 	<Item Name="Rad Digital Inputs.vi" Type="VI" URL="../Rad Digital Inputs.vi"/>
+	<Item Name="Connection Status Monitor.vi" Type="VI" URL="../Connection Status Monitor.vi"/>
 </Library>
