@@ -26,6 +26,7 @@
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
 				<Item Name="Status Updated Argument--cluster.ctl" Type="VI" URL="../Status Updated Argument--cluster.ctl"/>
 				<Item Name="Error Reported Argument--cluster.ctl" Type="VI" URL="../Error Reported Argument--cluster.ctl"/>
+				<Item Name="Seleccion Producto Actualizada Argument--cluster.ctl" Type="VI" URL="../Seleccion Producto Actualizada Argument--cluster.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Requests" Type="Folder">
@@ -53,6 +54,7 @@
 		<Item Name="Error Reported.vi" Type="VI" URL="../Error Reported.vi"/>
 		<Item Name="Module Did Stop.vi" Type="VI" URL="../Module Did Stop.vi"/>
 		<Item Name="Update Module Execution Status.vi" Type="VI" URL="../Update Module Execution Status.vi"/>
+		<Item Name="Seleccion Producto Actualizada.vi" Type="VI" URL="../Seleccion Producto Actualizada.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -66,6 +68,7 @@
 		<Item Name="Constants" Type="Folder">
 			<Item Name="Module Name--constant.vi" Type="VI" URL="../Module Name--constant.vi"/>
 			<Item Name="Module Timeout--constant.vi" Type="VI" URL="../Module Timeout--constant.vi"/>
+			<Item Name="Ruta Inventario--constant.vi" Type="VI" URL="../Ruta Inventario--constant.vi"/>
 		</Item>
 		<Item Name="Errors" Type="Folder">
 			<Item Name="Module Not Running--error.vi" Type="VI" URL="../Module Not Running--error.vi"/>
@@ -97,6 +100,9 @@
 		<Item Name="Synchronize Caller Events.vi" Type="VI" URL="../Synchronize Caller Events.vi"/>
 		<Item Name="Wait on Event Sync.vi" Type="VI" URL="../Wait on Event Sync.vi"/>
 		<Item Name="Wait on Module Sync.vi" Type="VI" URL="../Wait on Module Sync.vi"/>
+	</Item>
+	<Item Name="Inventario" Type="Folder">
+		<Item Name="Carga Inventario Inicial.vi" Type="VI" URL="../Carga Inventario Inicial.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
