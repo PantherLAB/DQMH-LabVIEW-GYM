@@ -1,0 +1,2 @@
+10:19:05.330 a. m. 14/06/2025	 New Event added to: MoneyControl.lvlib	 Type: Singleton	 Name:Credito Actualizado	 Type:Broadcast	 Scope:Public Request	 Description: Este es el broadcast para cada vez que se actualiza el crédito.
+10:20:50.315 a. m. 14/06/2025	 New Event added to: MoneyControl.lvlib	 Type: Singleton	 Name:Cancelar	 Type:Request	 Scope:Public Request	 Description: Regresa la totalidad del crédito actual
