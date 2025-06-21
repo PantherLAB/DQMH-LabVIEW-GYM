@@ -1,8 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Library LVVersion="24008000">
+<Library LVVersion="20008000">
 	<Property Name="NI.Lib.Description" Type="Str">Modulo para desplegar las UI de ProductControl y MoneyControl y MessageModule dentro de subpanels, además coordina la interacción de ellos.</Property>
-	<Property Name="NI.Lib.Icon" Type="Bin">*!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!),!!!*Q(C=\&gt;8"=2J"&amp;)4BNEI(8THKZC+&amp;FQ)JE-*,A;O/J.!JE!)J&gt;!KE1!LIX^'53CI8ZG**,B?T0,4UTMZ]T#YL;&lt;3@UK-ON^L4(^P(YVJ?_L\D4RI^LB``L&gt;X]_LKX?`O`W`0.(]'H`QZ_;(E15;&amp;-.66;JLW%0/1B$XH)1WZSEZP=Z#9X?:-X?:-X?:-X?:%8?:%8?:%8_&gt;D)23ZSE5-+EY?*QK"BA.!:CM*&lt;]!20]!10(R5]Q2-]Q2-]&gt;&amp;(Q"%`Q"%`Q=*K#*XC#*XC#B[''*'-DRR-]$#`D-2\D-2\D95I:DQ'9S=T!:B!9-A@.DP%9D`'Q+_-R(O-R(O0BM)T(?)T(?)S(5];K?'C7D2Q0Q[DR.*\'UXA;$U/L]43?RN.Y'A`4K@%UHA&lt;24.A-$E(.35W(ZE0D;4T]5?.J0)WH]41?$IULV'.F&amp;MWSE?-J0)7H]"3?QM-1+DS&amp;J`!5HM,$M#I]B;@Q&amp;*\#QV1K0)7H]"319F+G6T&amp;9=7,2K1A+$[^RN^3Y3B[3'JMU&lt;V\.GV,T:N/]C42P$MW,LHER.3_3ZO*L,KLG9GEOAO;8UU2L9D1HU4RZ[;AT\S@K3"WI0&lt;7DNN3'7F/LZ&gt;3`X0&amp;]0ONU/OFY0/JQ/'C`XWOXWWG\X7KTW7C^8GOV7LU^"H[RP4U18J^,T_R@KS`Y``Q00"PVI0&gt;TM%9P6+9:PA!!!!!</Property>
-	<Property Name="NI.Lib.SourceVersion" Type="Int">604012544</Property>
+	<Property Name="NI.Lib.Icon" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!),!!!*Q(C=\&gt;8"=2J"&amp;)4BNEI(8THKZC+&amp;FQ)JE-*,A;O/J.!JE!)J&gt;!KE1!LIX^'53CI8ZG**,B?T0,4UTMZ]T#YL;&lt;3@UK-ON^L4(^P(YVJ?_L\D4RI^LB``L&gt;X]_LKX?`O`W`0.(]'H`QZ_;(E15;&amp;-.66;JLW%0/1B$XH)1WZSEZP=Z#9X?:-X?:-X?:-X?:%8?:%8?:%8_&gt;D)23ZSE5-+EY?*QK"BA.!:CM*&lt;]!20]!10(R5]Q2-]Q2-]&gt;&amp;(Q"%`Q"%`Q=*K#*XC#*XC#B[''*'-DRR-]$#`D-2\D-2\D95I:DQ'9S=T!:B!9-A@.DP%9D`'Q+_-R(O-R(O0BM)T(?)T(?)S(5];K?'C7D2Q0Q[DR.*\'UXA;$U/L]43?RN.Y'A`4K@%UHA&lt;24.A-$E(.35W(ZE0D;4T]5?.J0)WH]41?$IULV'.F&amp;MWSE?-J0)7H]"3?QM-1+DS&amp;J`!5HM,$M#I]B;@Q&amp;*\#QV1K0)7H]"319F+G6T&amp;9=7,2K1A+$[^RN^3Y3B[3'JMU&lt;V\.GV,T:N/]C42P$MW,LHER.3_3ZO*L,KLG9GEOAO;8UU2L9D1HU4RZ[;AT\S@K3"WI0&lt;7DNN3'7F/LZ&gt;3`X0&amp;]0ONU/OFY0/JQ/'C`XWOXWWG\X7KTW7C^8GOV7LU^"H[RP4U18J^,T_R@KS`Y``Q00"PVI0&gt;TM%9P6+9:PA!!!!!</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
@@ -94,7 +93,11 @@
 		<Item Name="Wait on Event Sync.vi" Type="VI" URL="../Wait on Event Sync.vi"/>
 		<Item Name="Wait on Module Sync.vi" Type="VI" URL="../Wait on Module Sync.vi"/>
 	</Item>
+	<Item Name="support" Type="Folder">
+		<Item Name="Logica del negocio.vi" Type="VI" URL="../Logica del negocio.vi"/>
+	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Get Vending Machine Version.vi" Type="VI" URL="../Get Vending Machine Version.vi"/>
 </Library>

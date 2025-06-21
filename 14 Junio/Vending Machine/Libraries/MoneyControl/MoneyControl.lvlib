@@ -1,8 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Library LVVersion="24008000">
+<Library LVVersion="20008000">
 	<Property Name="NI.Lib.Description" Type="Str">Modulo para el manejo de dinero, detecta el ingreso del dinero, ademas maneja el crédito</Property>
-	<Property Name="NI.Lib.Icon" Type="Bin">*!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)]!!!*Q(C=\&gt;5R4A*"&amp;-&lt;R4[/*,4=Q6&amp;9W\Q1E8)%LP-K?VH*DYA&amp;?;5&amp;CO!*8?&amp;@A#FRB`=`QAJ!9;&gt;19YQQ$ST=\-T^HFV8KZ5;[UHCO8(^;?H_V&gt;NR@&lt;&gt;49U_I@_WP@64UH`68X(_0\J#@TD]&gt;P(`3@LH`=`[H`4.&amp;`_3^`OTS?`2&amp;]__`A1OV"2%N;U*RG;MO/3:\E3:\E3:\E12\E12\E12\E4O\E4O\E4O\E2G\E2G\E2G\EP:+,8/1CBZ1MHCS54*J-E*Q-2=F&lt;YEE]C3@R]&amp;7**`%EHM34?$B&amp;C3@R**\%EXA9JM34?"*0YEE]4.5FW3MZHM4$^!I]A3@Q"*\!QZ)+0!%A7#S9/*A%BI,/Y#$Q"*\!Q[%#4_!*0)%H].#NQ".Y!E`A#4Q-[&lt;M38&gt;-K/2[GE?.R0)\(]4A?JJ&lt;D=4S/R`%Y(J;4YX%]$M*:U*E=AJR"TAH/&amp;]@D?0C1YX%]DM@R/"[[_B8SPD..USIZ(M.D?!S0Y4%]4#($9XA-D_%R0%QLQW.Y$)`B-4QM*=.D?!S0!4%7:8E:ERE$D:/-Q0$Q[H?,^;M587+^3H8TKGZ+V=WGOIF5.Y@KIKMOJOICK4:@N;GKT6*NAOK05[&amp;6'.5CKM(N2/VYX^)WN$6NI#VJ#^K=.K6.WN!P0H'XWWG\X7KTW7C^8GM9"CW83SU7#]XH=UWH5UUGE].DY*:[?#$MHUO0(!^R``+]?HVZ7DX-BN8&gt;D/_TFP`!`_&gt;@]'T5J9\89)`?!!B]2(U!!!!!</Property>
-	<Property Name="NI.Lib.SourceVersion" Type="Int">604012544</Property>
+	<Property Name="NI.Lib.Icon" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)]!!!*Q(C=\&gt;5R4A*"&amp;-&lt;R4[/*,4=Q6&amp;9W\Q1E8)%LP-K?VH*DYA&amp;?;5&amp;CO!*8?&amp;@A#FRB`=`QAJ!9;&gt;19YQQ$ST=\-T^HFV8KZ5;[UHCO8(^;?H_V&gt;NR@&lt;&gt;49U_I@_WP@64UH`68X(_0\J#@TD]&gt;P(`3@LH`=`[H`4.&amp;`_3^`OTS?`2&amp;]__`A1OV"2%N;U*RG;MO/3:\E3:\E3:\E12\E12\E12\E4O\E4O\E4O\E2G\E2G\E2G\EP:+,8/1CBZ1MHCS54*J-E*Q-2=F&lt;YEE]C3@R]&amp;7**`%EHM34?$B&amp;C3@R**\%EXA9JM34?"*0YEE]4.5FW3MZHM4$^!I]A3@Q"*\!QZ)+0!%A7#S9/*A%BI,/Y#$Q"*\!Q[%#4_!*0)%H].#NQ".Y!E`A#4Q-[&lt;M38&gt;-K/2[GE?.R0)\(]4A?JJ&lt;D=4S/R`%Y(J;4YX%]$M*:U*E=AJR"TAH/&amp;]@D?0C1YX%]DM@R/"[[_B8SPD..USIZ(M.D?!S0Y4%]4#($9XA-D_%R0%QLQW.Y$)`B-4QM*=.D?!S0!4%7:8E:ERE$D:/-Q0$Q[H?,^;M587+^3H8TKGZ+V=WGOIF5.Y@KIKMOJOICK4:@N;GKT6*NAOK05[&amp;6'.5CKM(N2/VYX^)WN$6NI#VJ#^K=.K6.WN!P0H'XWWG\X7KTW7C^8GM9"CW83SU7#]XH=UWH5UUGE].DY*:[?#$MHUO0(!^R``+]?HVZ7DX-BN8&gt;D/_TFP`!`_&gt;@]'T5J9\89)`?!!B]2(U!!!!!</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
@@ -23,6 +22,7 @@
 				<Item Name="Remove From Subpanel Argument--cluster.ctl" Type="VI" URL="../Remove From Subpanel Argument--cluster.ctl"/>
 				<Item Name="Incrementa Credito Argument--cluster.ctl" Type="VI" URL="../Incrementa Credito Argument--cluster.ctl"/>
 				<Item Name="Cancelar Argument--cluster.ctl" Type="VI" URL="../Cancelar Argument--cluster.ctl"/>
+				<Item Name="Regresa Cambio Argument--cluster.ctl" Type="VI" URL="../Regresa Cambio Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -41,6 +41,7 @@
 			<Item Name="Remove From Subpanel.vi" Type="VI" URL="../Remove From Subpanel.vi"/>
 			<Item Name="Incrementa Credito.vi" Type="VI" URL="../Incrementa Credito.vi"/>
 			<Item Name="Cancelar.vi" Type="VI" URL="../Cancelar.vi"/>
+			<Item Name="Regresa Cambio.vi" Type="VI" URL="../Regresa Cambio.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>

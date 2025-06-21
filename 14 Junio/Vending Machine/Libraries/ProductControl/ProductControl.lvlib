@@ -1,8 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Library LVVersion="24008000">
+<Library LVVersion="20008000">
 	<Property Name="NI.Lib.Description" Type="Str">Modulo para el manejo de Productos, lleva un inventario de todos los productos además recibe la instrucción de entregar productos y actualizar el inventario</Property>
-	<Property Name="NI.Lib.Icon" Type="Bin">*!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)^!!!*Q(C=\&gt;5^DBJ"%)&lt;B&lt;SU(G]Y.,+Z16S$:$:%YA*.+,:S1YGS=&lt;&amp;Y3*_!+8+'O1/!,=)8RWUU*E.&gt;;EL6F7@41\0$VXU00-#PV]CB^V(3L@(GT^0&lt;?;[L4S^FU&lt;G_PVW_`'8^J0\7=R\_;J/*@WC`L4V@DX`4@+,K8?`G`S_&lt;GD_#0`QY?V"Z%V+1'V;GGNOS5Z%G?Z%G?Z%E?Z%%?Z%%?Z%(OZ%\OZ%\OZ%ZOZ%:OZ%:OZ%&lt;?$X+2CVTEE*,&amp;EY733:-*EMZ1F,QFHM34?")0(Z6Y%E`C34S*BSZ+0)EH]33?R--Q*:\%EXA34_*BKC\*@J$D34R-L]!4?!*0Y!E],+H!%Q##R9+*AUFA+'A-4A*0Y!E]H#LQ"*\!%XA#$]U+0)%H]!3?Q-/1PCP2.?UAR]-U=DS/R`%Y(M@$V()]DM@R/"\(QX*S0)\(14A,/J.$E$0)[?"]=$S/BT^S0)\(]4A?RU.4PU,?&gt;[:JWE'/R`!9(M.D?!Q05]DQ'"\$9XA-$^0+]"A?QW.Y$!^,S@!9(M.D1)R&amp;76\':-:!IZ-2'"Z?`7[R@J7C3[Q@5NW]KJN3&gt;&lt;/J&lt;C,6T;'[[+K,K&lt;J)KMV8&lt;;JKMV3&lt;I0JS+L1+IVJ%.&lt;BVV*(X!X60X6&amp;([JK[J-[J-_L1BLZTR_0RK-0BI0V_L^VOJX%=N6[PN6QO.:`0.:P..!T$_4(QC?0]1$A^FT;=P[SWK_`0CW]P8R?@R_@&amp;-$ZN@\4],`R``A??D@KA[T89IZ_N&gt;I;%!!!!!!</Property>
-	<Property Name="NI.Lib.SourceVersion" Type="Int">604012544</Property>
+	<Property Name="NI.Lib.Icon" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)^!!!*Q(C=\&gt;5^DBJ"%)&lt;B&lt;SU(G]Y.,+Z16S$:$:%YA*.+,:S1YGS=&lt;&amp;Y3*_!+8+'O1/!,=)8RWUU*E.&gt;;EL6F7@41\0$VXU00-#PV]CB^V(3L@(GT^0&lt;?;[L4S^FU&lt;G_PVW_`'8^J0\7=R\_;J/*@WC`L4V@DX`4@+,K8?`G`S_&lt;GD_#0`QY?V"Z%V+1'V;GGNOS5Z%G?Z%G?Z%E?Z%%?Z%%?Z%(OZ%\OZ%\OZ%ZOZ%:OZ%:OZ%&lt;?$X+2CVTEE*,&amp;EY733:-*EMZ1F,QFHM34?")0(Z6Y%E`C34S*BSZ+0)EH]33?R--Q*:\%EXA34_*BKC\*@J$D34R-L]!4?!*0Y!E],+H!%Q##R9+*AUFA+'A-4A*0Y!E]H#LQ"*\!%XA#$]U+0)%H]!3?Q-/1PCP2.?UAR]-U=DS/R`%Y(M@$V()]DM@R/"\(QX*S0)\(14A,/J.$E$0)[?"]=$S/BT^S0)\(]4A?RU.4PU,?&gt;[:JWE'/R`!9(M.D?!Q05]DQ'"\$9XA-$^0+]"A?QW.Y$!^,S@!9(M.D1)R&amp;76\':-:!IZ-2'"Z?`7[R@J7C3[Q@5NW]KJN3&gt;&lt;/J&lt;C,6T;'[[+K,K&lt;J)KMV8&lt;;JKMV3&lt;I0JS+L1+IVJ%.&lt;BVV*(X!X60X6&amp;([JK[J-[J-_L1BLZTR_0RK-0BI0V_L^VOJX%=N6[PN6QO.:`0.:P..!T$_4(QC?0]1$A^FT;=P[SWK_`0CW]P8R?@R_@&amp;-$ZN@\4],`R``A??D@KA[T89IZ_N&gt;I;%!!!!!!</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
@@ -21,6 +20,7 @@
 				<Item Name="Show Diagram Argument--cluster.ctl" Type="VI" URL="../Show Diagram Argument--cluster.ctl"/>
 				<Item Name="Draw FP in Subpanel Argument--cluster.ctl" Type="VI" URL="../Draw FP in Subpanel Argument--cluster.ctl"/>
 				<Item Name="Remove From Subpanel Argument--cluster.ctl" Type="VI" URL="../Remove From Subpanel Argument--cluster.ctl"/>
+				<Item Name="Vender Producto Argument--cluster.ctl" Type="VI" URL="../Vender Producto Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -37,6 +37,7 @@
 			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
 			<Item Name="Draw FP in Subpanel.vi" Type="VI" URL="../Draw FP in Subpanel.vi"/>
 			<Item Name="Remove From Subpanel.vi" Type="VI" URL="../Remove From Subpanel.vi"/>
+			<Item Name="Vender Producto.vi" Type="VI" URL="../Vender Producto.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -58,6 +59,12 @@
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="Private Requests" Type="Folder">
+			<Item Name="Priv Req Arguments" Type="Folder">
+				<Item Name="Cargar Productos Argument--cluster.ctl" Type="VI" URL="../Cargar Productos Argument--cluster.ctl"/>
+			</Item>
+			<Item Name="Cargar Productos.vi" Type="VI" URL="../Cargar Productos.vi"/>
+		</Item>
 		<Item Name="Request Events--cluster.ctl" Type="VI" URL="../Request Events--cluster.ctl"/>
 		<Item Name="Obtain Request Events.vi" Type="VI" URL="../Obtain Request Events.vi"/>
 		<Item Name="Destroy Request Events.vi" Type="VI" URL="../Destroy Request Events.vi"/>
@@ -103,6 +110,7 @@
 	</Item>
 	<Item Name="Inventario" Type="Folder">
 		<Item Name="Carga Inventario Inicial.vi" Type="VI" URL="../Carga Inventario Inicial.vi"/>
+		<Item Name="Venta Producto.vi" Type="VI" URL="../Venta Producto.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
